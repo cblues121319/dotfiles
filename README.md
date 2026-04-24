@@ -591,7 +591,10 @@ brew install tree
 >> brew install yt-dlp
 >> ffmpeg
 
-# basic download
+# audio only download 
+>> yt-dlp -x --audio-format mp3 "< youtube url >"
+
+# basic video download
 >> yt-dlp "https://www.youtube.com/watch?v=8PsG3ycLx3o" --merge-output-format mp4
 
 # setting up the resolution for downloading (less or equal than 4k if videos are available)
